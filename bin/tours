@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'tour_server'
+
+server = TourServer::Server.new
+server.start
